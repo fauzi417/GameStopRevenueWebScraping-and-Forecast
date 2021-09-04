@@ -109,8 +109,8 @@ hasil.resid.plot(kind='kde')
 
 #model test
 
-gme_revenue['forecast']=hasil.predict(start=55, end=66, dynamic=True)
-gme_revenue[['Revenue','forecast']].plot()
+gme_revenue['model test']=hasil.predict(start=55, end=66, dynamic=True)
+gme_revenue[['Revenue','model test']].plot()
 plt.show()
 
 #forecast
