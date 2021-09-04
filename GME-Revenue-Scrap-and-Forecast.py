@@ -43,6 +43,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 decomp = seasonal_decompose(time_series)
 decomp.plot()
 plt.show()
+#as shown data is seasonal so we proceed with Sarima
 
 #Augmented dickey fuller test
 from statsmodels.tsa.stattools import adfuller
