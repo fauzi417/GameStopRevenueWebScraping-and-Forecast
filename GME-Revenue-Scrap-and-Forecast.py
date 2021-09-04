@@ -107,7 +107,7 @@ hasil=model.fit()
 print(hasil.summary())
 hasil.resid.plot(kind='kde')
 
-model test
+#model test
 
 gme_revenue['forecast']=hasil.predict(start=55, end=66, dynamic=True)
 gme_revenue[['Revenue','forecast']].plot()
